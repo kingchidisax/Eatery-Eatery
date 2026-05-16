@@ -1,9 +1,10 @@
 
-body {
+*{
     box-sizing: border-box;
-    margin: auto;
-    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
+   
 
 /* ==================hero section============================== */
 .hero {
@@ -11,7 +12,7 @@ body {
     background: url(images/hero.jpeg) no-repeat center center/cover;
     background-color: rgb(44, 42, 42);
     background-blend-mode: overlay;
-    height: 800px;
+    height: 700px;
     overflow: hidden;
     
     
@@ -23,7 +24,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 95%;
+    margin-top: 1%;
+    
     
 }
 
@@ -59,6 +61,7 @@ body {
     font-size: 20px;
     color: white;
     position: relative;
+    right: 6%;
     transition: 1s;
     animation: expand 2s infinite alternate ;
 }
@@ -81,13 +84,15 @@ body {
 }
 .hero1 {
     width: 100%;
-    padding:10px  100px;
+    margin-left: 9%;
+    margin-top: 4%;
 }
 
 .hero1 h1 {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
+    margin-bottom: 2%;
     
     animation: fadein 3s linear;
     
@@ -209,7 +214,7 @@ body {
     padding: 15px;
     font-size: 15px;
     margin-left: 30px;
-    width: 25%;
+    width: 20%;
 }
 
 .booking button {
@@ -250,15 +255,14 @@ body {
 }
 
 .about {
-    width: 45%;
-    margin-left: 10%;
-    font-size: 20px;
+    
+    margin-left: 11%;
+    font-size: 17px;
     
 }
 
 .pic {
-    width: 45%;
-    padding: 60px 20px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -266,20 +270,21 @@ body {
 }
 
 .pic img {
-    width: 300px;
-    height: 300px;
-    flex-grow: 1;
+    width: 350px;
+    height: 250px;
+    
 }
 
 /* ==================ABOUT US ENDING=================== */
 
 
 /* ================= MENU================================*/
-.feature {
+.Feature {
     background: url(female-chef-frying-pan-tasting-food-cooking-culinary-people-concept-blowing-to-spatula-over-grey-background-243056385.jpg) no-repeat center center/cover;
     background-color: #eee9e9;
     background-blend-mode: overlay;
-    padding-top: 50px;
+    margin-top: 30px;
+
     
 }
 
@@ -294,17 +299,22 @@ body {
 
 .Feature h1 {
     text-align: center;
+   
 }
 
 .Feature span {
     color: red;
+    font-size: 20px;
+     margin-left: 23%;
+    
 }
 
 .dish-link {
     display: flex;
     justify-content: center;
-    padding-bottom: 60px;
-    padding-top: 25px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
 
 }
 
@@ -313,6 +323,7 @@ body {
     font-size: 20px;
     margin-right: 20px;
     color: rgb(15, 15, 15);
+
 }
 
 .dish-link a:hover {
@@ -324,41 +335,51 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    
     gap: 30px;
-    width: 95%;
-    margin-left: 10%;
+    
+    
 }
 
 .Dishes img {
-    width: 400px;
-    height: 400px;
+    width: 330px;
+    height: 300px;
 }
 
 .Dishes div {
     background-color: #f3eeee;
     padding-bottom: 10px;
     justify-content: center;
-
+   
 }
 
-.Dishes span h2 {
+.card span h2 {
     margin-left: 10px;
     margin-bottom: 10px;
+    justify-content: center;
 }
 
 .Dishes button {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
+    position: relative;
+    left: 20%;
     background-color: black;
     border: none;
-    padding: 20px;
+   padding: 5px;
 }
+
+.card p{
+  text-align: center;
+}
+.card h2{
+    text-align: center;
+}
+
 
 .icon {
     color: white;
-    font-size: 10px;
+    font-size: 25px;
+    position: relative;
+    
 }
 
 /* =============================MENU ENDING======================= */
@@ -374,9 +395,9 @@ body {
 }
 
 .blog-text {
-    text-align: center;
+    
     font-size: 20px;
-    margin-left: 10%;
+    margin-left: 11%;
 }
 
 .blog-text h1 {
@@ -396,6 +417,7 @@ body {
     background-color: red;
     transition: 0.2s;
     border-style: none;
+    margin-bottom: 10%;
 }
 
 .blog-text button:hover {
@@ -412,9 +434,9 @@ body {
 }
 
 .blogs-img img {
-    width: 300px;
-    height: 300px;
-    position: relative;
+    width: 230px;
+    height: 230px;
+    
     
 }
 
@@ -423,7 +445,7 @@ body {
     margin-bottom: 40px;
 }
 
-.card {
+.card-card {
     background-color: rgb(236, 240, 240);
     text-align: center;
     border: 1px solid rgb(211, 204, 204);
@@ -456,21 +478,24 @@ body {
 
 /* ============== TESTIMONIAL============== */
 
-.testimonial-all {
+.Testimonial-all {
     background-color: black;
     padding-top: 30px;
     padding-bottom: 40px;
 }
 
 
-.test {
+.Test {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    color: rgb(231, 225, 225);
 
 }
+.Test h1{
+    font-size: 20px;
+}
 
-.test h2 {
+.Test h2 {
     color: red;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -494,14 +519,15 @@ body {
     margin-top: 30px;
 }
 
-.testimonial {
-    background-color: #ddd;
-    
+.Testimonial{
+    background-color: #1a1919;
+    color: #fff;
     border-radius: 30px;
     text-align: center;
     margin-top: 30%;
-    height: 500px;
-    font-size: 25px;
+    width: 40%;
+    height: 300px;
+    font-size: 15px;
     margin-bottom: 40px;
     box-shadow: #ddd 5px 5px 9px 9px;
     animation: color 3s infinite alternate;
@@ -521,7 +547,7 @@ body {
    }
 }
 
-.testimonial h2 {
+.Testimonial h2 {
     color: rgb(201, 29, 29);
 }
 
@@ -532,10 +558,10 @@ body {
 }
 @keyframes move{
     form{
-       transform: translateX(60px); 
+       transform: translateX(30px); 
     }
     to{
-        transform: translateX(-60px);
+        transform: translateX(-30px);
     }
 }
 
@@ -546,10 +572,10 @@ body {
 }
  @keyframes slide{
     frpm{
-        transform: translateX(-60px);
+        transform: translateX(-30px);
     }
     to{
-        transform: translateX(+60px);
+        transform: translateX(+30px);
     }
  }
 
@@ -563,21 +589,21 @@ body {
     padding-bottom: 50px;
 }
 
-.blog-2-Header h1 {
+.blog-2-header h1 {
     color: red;
     font-size: 20px;
     text-align: center;
 }
 
 .blog-2 h2 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .blog-2-card img {
-     width: 450px;
-     height: 400px;
+     width: 350px;
+     height: 300px;
    
 }
 
@@ -688,48 +714,54 @@ footer{
   /* =============hero section */
   
   .hero {
-        width: 100%;
+     width: 100%;
     }
 
     .navbar{
-        flex-direction: column;
-        gap: 10px;
-        
-    }
-
-    .navbar .links{
-        flex-direction: column;
-    }
-
-    .hero1 {
         display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 10px;
-        width: 100%;
+        flex-direction: column;
+        margin-bottom: 4%;
+        align-items: center;
     }
+
+    .links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    }
+    
 
     .hero1 h1{
         font-size: 25px;
+        text-align: center;
+        margin-right: 10%;
+        
     }
 
     .hero1 p{
         font-size: 13px;
-        margin-top: 7%;
-        margin-bottom: 9%;
+       position: relative;
+       margin-top: 5%;
+       width: 100%;
     }
-    .nav-button button{
-        margin-bottom: 4%;
+    .button{
+        display: flex;
+        margin-left: 10%;
+        width: 90%;
+        margin-top: 5%;
         
     }
 
     /* ===============ending of hero section */
 /* ===============startrt of booking  */
     .Onlinebooking {
-        width: 80%;
+        width: 100%;
         align-items: center;
         position: relative;
-        left: 38px;
+        
     }
 
     .booking {
@@ -738,7 +770,7 @@ footer{
     }
 
     .booking input {
-        width: 70%;
+        width: 90%;
         justify-content: center;
         margin-bottom: 10px;
     }
@@ -754,28 +786,33 @@ footer{
         
     }
     .pic img{
-        width: 400px;
-        height: 400px;
+       width: 100%;
+       
         padding: 0%;
         margin: 0%;
         position: relative;
         left: 30px;
+        margin-bottom: 3%;
     }
     .about h2{
         font-size: 20px;
-        position: relative;
-        right: 25%;
+        
+    }
 
+    .pic{
+        margin-right: 55px;
     }
     .about p{
-        font-size: 15px;
-        position: relative;
-        right: 22px;
+        font-size: 20px;
+        width: 100%;
         font-weight: 200;
+        margin-bottom: 3%;
+        position: relative;
+        right: 5%;
     }
 
-    .feature h1 {
-        font-size: 23px;
+    .Feature h1 {
+        font-size: 25px;
     }
 
     .dish-link a {
@@ -786,12 +823,12 @@ footer{
         font-weight: 400;
         position: relative;
         left: 14%;
-                
+         width: 100%;       
     }
-    .card img{
-        width: 100%;
+    
+
     /* ============ending of about */
-    }
+    
     /* ------------------starting of blog */
     .blogs {
         display: flex;
@@ -806,10 +843,23 @@ footer{
         position: relative;
         left: 15%;
     }
+    .blogs-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        height: 50%;
+        
+        
+    }
+    .card {
+        justify-content: center;
     
+        
+    }
     .blogs-img img {
-    width: 400;
-    height: 400;
+     width: 100%;
+     
     }
     .blog-text h2{
         justify-content: center;
@@ -845,21 +895,26 @@ footer{
     }
 /* =============ending of blog */
     /* ============testimonial========== */
-
-   .test h1{
+.card-flex{
+    display: flex;
+}
+    .Testimonial-all{
+        width: 100%;
+    }
+   .Test h1{
       font-size: 15px;
    }
-   .test h2{
+   .Test h2{
     font-size: 14px;
    }
-   .testimonial p {
+   .Testimonial p {
     font-size: 15px;
     font-weight: 400;
    }
-   .testimonial h2{
+   .Testimonial h2{
     font-size: 15px;
    }
-   .testimonial{
+   .Testimonial{
     width: 60%;
     height: 70%;
    }
