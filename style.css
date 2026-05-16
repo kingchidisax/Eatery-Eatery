@@ -234,6 +234,7 @@ body {
     text-align: center;
     padding: 20px;
     position: relative;
+    left: left 10%;
     bottom: 2cm;
     border-radius: 10px;
 }
@@ -245,19 +246,18 @@ body {
 .story {
     display: flex;
     align-items: center;
-    width: 95%;
+    width: 100%;
 }
 
 .about {
     width: 45%;
     margin-left: 10%;
-    flex-grow: 1;
     font-size: 20px;
     
 }
 
 .pic {
-    width: 50%;
+    width: 45%;
     padding: 60px 20px;
     display: flex;
     flex-wrap: wrap;
@@ -292,11 +292,11 @@ body {
     width: 40px;
 }
 
-.feature h1 {
+.Feature h1 {
     text-align: center;
 }
 
-.feature span {
+.Feature span {
     color: red;
 }
 
@@ -320,7 +320,7 @@ body {
     color: red;
 }
 
-.dishes {
+.Dishes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -330,26 +330,24 @@ body {
     margin-left: 10%;
 }
 
-.dishes img {
+.Dishes img {
     width: 400px;
     height: 400px;
 }
 
-.dishes div {
+.Dishes div {
     background-color: #f3eeee;
     padding-bottom: 10px;
-    position: relative;
+    justify-content: center;
 
 }
 
-.dishes,
-span,
-h2 {
+.Dishes span h2 {
     margin-left: 10px;
     margin-bottom: 10px;
 }
 
-.dishes button {
+.Dishes button {
     position: absolute;
     bottom: 5px;
     right: 5px;
@@ -376,7 +374,7 @@ h2 {
 }
 
 .blog-text {
-
+    text-align: center;
     font-size: 20px;
     margin-left: 10%;
 }
@@ -414,8 +412,10 @@ h2 {
 }
 
 .blogs-img img {
-    width: 300;
-    height: 300;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    
 }
 
 .blogs-img p {
@@ -683,6 +683,7 @@ footer{
 }
 
 /* ==================CONTACT US ENDING */
+/* ================media */
 @media (max-width: 768px){
   /* =============hero section */
   
