@@ -783,7 +783,7 @@ footer{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        
+        width: 100%;
     }
     .pic img{
        width: 100%;
@@ -822,7 +822,7 @@ footer{
         font-size: 17px;
         font-weight: 400;
         position: relative;
-        left: 14%;
+        left: 7%;
          width: 100%;       
     }
     
@@ -897,6 +897,7 @@ footer{
     /* ============testimonial========== */
 .card-flex{
     display: flex;
+    
 }
     .Testimonial-all{
         width: 100%;
@@ -966,12 +967,26 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
    }
     .footer-text{
     font-size: 15px;
+    width: 100%;
+    margin-left: 30px;
     }
     .footer-link h2{
         font-size: 20px;
+        
     }
-   
+    .footer-link {
+         width: 100%;
+         display: flex;
+         margin-top: 10px;
+         margin-left: 30px;
+    }
+     .internet{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 30px;
+     }
    }
