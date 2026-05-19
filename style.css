@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
     margin: 0%;
-    overflow-x: hidden;
+    padding: 0%;
     
 }
 
@@ -198,6 +198,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    
 }
 
 .Onlinebooking span {
@@ -254,6 +255,7 @@
     display: flex;
     align-items: center;
     width: 100%;
+    
 }
 
 .about {
@@ -286,7 +288,7 @@
     background-color: #eee9e9;
     background-blend-mode: overlay;
     margin-top: 30px;
-
+    
     
 }
 
@@ -393,7 +395,7 @@
     margin-bottom: 7%;
     justify-content: space-between;
     margin-top: 5%;
-
+     
 }
 
 .blog-text {
@@ -428,7 +430,7 @@
 }
 
 .blogs-img {
-
+    
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -445,12 +447,13 @@
 .blogs-img p {
     color: red;
     margin-bottom: 40px;
-}
-
-.card-card {
-    background-color: rgb(236, 240, 240);
     text-align: center;
-    border: 1px solid rgb(211, 204, 204);
+}
+.blogs-img h3{
+    text-align: center;
+}
+.card-card {
+ background-color: rgb(157, 197, 197);
 }
 
 .logo img {
@@ -484,6 +487,7 @@
     background-color: black;
     padding-top: 30px;
     padding-bottom: 40px;
+    
 }
 
 
@@ -589,6 +593,7 @@
 .blog-2 {
     margin-top: 5%;
     padding-bottom: 50px;
+    
 }
 
 .blog-2-header h1 {
@@ -647,7 +652,7 @@
 /* ==============CONTACT US===================== */
 footer{
     background-color: black;
-
+    overflow: hidden;
 }
 .footer {
     display: flex;
@@ -673,7 +678,7 @@ footer{
 
 .footer-link {
     display: flex;
-    flex-direction: column;
+   flex-direction: column;
     margin-bottom: 1%;
     margin-right: 5%;
 
@@ -759,6 +764,7 @@ footer{
 
     /* ===============ending of hero section */
 /* ===============startrt of booking  */
+    
     .Onlinebooking {
         width: 100%;
         align-items: center;
@@ -776,219 +782,127 @@ footer{
         justify-content: center;
         margin-bottom: 10px;
     }
-  /* =========ending of booking */
+  /* =========ending of booking */ 
 
-/* ======================starting of about */
-    body
-.story {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-    }
-    .pic img{
-       width: 100%;
-       
-        padding: 0%;
-        margin: 0%;
-        position: relative;
-        left: 30px;
-        margin-bottom: 3%;
-    }
-    .about h2{
-        font-size: 20px;
-        
-    }
-
-    .pic{
-        margin-right: 55px;
-    }
-    .about p{
-        font-size: 20px;
-        width: 100%;
-        font-weight: 200;
-        margin-bottom: 3%;
-        position: relative;
-        right: 5%;
-    }
-
-    .Feature h1 {
-        font-size: 25px;
-    }
-
-    .dish-link a {
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 5px;
-        font-size: 17px;
-        font-weight: 400;
-        position: relative;
-        left: 7%;
-         width: 100%;       
-    }
+/* ======================starting of STORY----------- */
     
-
-    /* ============ending of about */
-    
-    /* ------------------starting of blog */
-    .blogs {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .blog-text h1{
-        justify-content: center;
-        position: relative;
-        left: 15%;
-    }
-    .blogs-img{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 70%;
-        height: 50%;
-        
-        
-    }
-    .card {
-        justify-content: center;
-    
-        
-    }
-    .blogs-img img {
-     width: 100%;
-     
-    }
-    .blog-text h2{
-        justify-content: center;
-        position: relative;
-        left: 5%;
-    }
-    .blog-text button{
-        position: relative;
-        left: 12%;
-        margin-bottom: 10px;
-    }
-    .blogs-img h3{
-        font-size: 15px;
-    }
-    .blog-text p{
-       justify-content: center;
-       margin-right: 20px;
-    }
-    .logo img{
-        width: 20px;
-        position: relative;
-        
-        
-    }
-
-    .blog-text button {
-        align-items: center;
-        margin-bottom: 10px;
-        justify-content: center;
-        text-align: center;
-        width: 50%;
-
-    }
-/* =============ending of blog */
-    /* ============testimonial========== */
-.card-flex{
-    display: flex;
-    
-}
-    .Testimonial-all{
-        width: 100%;
-    }
-   .Test h1{
-      font-size: 15px;
-   }
-   .Test h2{
-    font-size: 14px;
-   }
-   .Testimonial p {
-    font-size: 15px;
-    font-weight: 400;
-   }
-   .Testimonial h2{
-    font-size: 15px;
-   }
-   .Testimonial{
-    width: 60%;
-    height: 70%;
-   }
-   .card1{
-    margin-bottom: 25%;
-   }
-   .card2{
-    margin-bottom: 25%;
-   }
-   .position2{
-    position: relative;
-    right: 41%;
-   }
-   .position1{
-    position: relative;
-    left: 41%;
-   }
-   .card-flex img{
-    width: 40px;
-    height: 40px;
-    
-   }
-   /* ==========testimonial ending */
-   .blog-2-Header h1{
-    font-size: 15px;
-   }
-   .blog-2-Header h2{
-    font-size: 17px;
-   }
-   .blog-2-Header p{
-    font-size: 15px;
-    text-align: center;
-   }
-   .blog-2-card h2 {
-    font-size: 22px;
-    text-align: center;
-   }
-   .blog-2 div{
-    gap: 20px;
-    padding: 5px;
-    margin-left: 4%;
-   }
-   .blog-2 img{
-    width: 100%;
-    
-   }
-   .footer{
+   .story{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
    }
-    .footer-text{
+   .about p{
+    font-size: 13px;
+    margin-bottom: 10px;
+   }
+   .pic img{
+    height: 60%;
+    width: 60%;
+   }
+/* =======ending of story============= */
+
+/* =====starting of feature======== */
+
+.Feature h1{
+    font-size: 20px;
+}
+.Feature span{
     font-size: 15px;
+}
+  
+.dish-link{
+    display: flex;
+    flex-wrap: wrap;
+}
+  .dish-link a{
+    font-size: 13px;
+    margin-left: 6%;
+    position: relative;
+    left: 9%;
+  }
+  .card{
+    width: 75%;
+  }
+  .card img{
     width: 100%;
-    margin-left: 30px;
-    }
-    .footer-link h2{
-        font-size: 20px;
-        
-    }
-    .footer-link {
-         width: 100%;
-         display: flex;
-         margin-top: 10px;
-         margin-left: 29px;
-    }
-     .internet{
-        width: 100%;
-        margin-top: 10px;
-        margin-left: 30px;
-     }
+  }
+  /* end of feature========== */
+
+  /* =====meet our team======== */
+  .blogs{
+    display: flex;
+    flex-direction: column;
+  }
+  .blogs-img{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-card {
+    width: 100%;
+  }
+  /* end of meet our team=========== */
+
+  /* =========testimonial=========== */
+   .Testimonial-all{
+    width: 100%;
    }
+  .Test h2{
+    font-size: 15px;
+  }
+  .Test h1{
+    font-size: 14px;
+  }
+  .card-flex{
+    display: flex;
+  }
+  .card-flex img{
+    width: 40px;
+    height: 40px;
+  }
+  .Testimonial{
+    width: 65%;
+  }
+  .position1{
+    position: relative;
+    left: 60%;
+  }
+  .position2{
+    position: relative;
+    right: 60%;
+  }
+  /* ======end of tesimonial============ */
+
+  /* ======starting of blog=========== */
+
+  .blog-2-card{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .blog-2-card img{
+    width: 100%;
+  }
+  .blog-2-card div{
+    margin-top: 10px;
+  }
+  /* ===end of testimonial========== */
+
+  /* ====starting of footer====== */
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-link{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 15px;
+  }
+  .footer-text{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 15px;
+  }
+  .internet{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 15px;
+  }
+}
